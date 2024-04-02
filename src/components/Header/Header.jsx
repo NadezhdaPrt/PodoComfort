@@ -1,5 +1,6 @@
 import logoLong from '/Logolong.png';
 import MenuIcon from '@mui/icons-material/Menu';
+import './Header.css';
 
 const Header = () => {
     return (

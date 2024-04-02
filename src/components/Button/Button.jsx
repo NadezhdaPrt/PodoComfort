@@ -1,6 +1,8 @@
+import './Button.css';
+
 const Button = () => {
     return (
-        <button>
+        <button className="button">
             ЗАПИСАТЬСЯ
         </button>
 

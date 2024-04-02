@@ -1,23 +1,38 @@
-export const ways = [
+import Person3OutlinedIcon from '@mui/icons-material/Person3Outlined';
+import DriveEtaOutlinedIcon from '@mui/icons-material/DriveEtaOutlined';
+
+export const serviceItem = [
   {
-    title: 'Фильтрация информации и технологий.',
-    description:
-      'Из огромного количества информации и навыков в IT, вы получаете только то, что необходимо и работает.',
+    // icon: <Person3OutlinedIcon/>,
+    icon: 'Person3OutlinedIcon',
+    title:
+      'Консультация (очная)',
   },
   {
-    title: 'Формат обучения.',
-    description:
-      'Пока другие предлагают 50 страниц текста и вебинары по 2 часа, мы даем вам тот же объем знаний в одном тщательно подготовленном видео за 15 минут.',
+    icon: 'DriveEtaOutlinedIcon',
+    title:
+      'Коррекционные системы',
   },
   {
-    title: 'Применение разных форматов.',
-    description:
-      'Видео-уроки, практические задания, конспекты, мастер-классы, обсуждения в сообществе — все это дает полноценную картину и ускоряет процесс обучения.',
+    // icon: <DriveEtaOutlinedIcon/>,
+    icon: 'Машина',
+    title:
+      'Выезд на дом',
   },
   {
-    title: 'Наши преподаватели ведущие специалисты',
-    description:
-      'VK, Avito, Тинькофф, Kaspersky — действующие разработчики с опытом преподавания для большой аудитории.',
+    icon: 'Без покрытия',
+    title:
+      'Педикюр без покрытия',
+  },
+  {
+    icon: 'Покрытие',
+    title:
+      'Педикюр с покрытием',
+  },
+  {
+    icon: 'Протез',
+    title:
+      'Протезирование',
   },
 ]
 
