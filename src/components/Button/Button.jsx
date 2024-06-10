@@ -1,9 +1,9 @@
 import './Button.css';
 
-const Button = () => {
+const Button = ({children, makeAnAppointment}) => {
     return (
-        <button className="button">
-            ЗАПИСАТЬСЯ
+        <button className="button" onClick={makeAnAppointment}>
+            {children}
         </button>
 
     )
