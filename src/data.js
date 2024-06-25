@@ -1,43 +1,89 @@
 import Person3OutlinedIcon from '@mui/icons-material/Person3Outlined';
 import DriveEtaOutlinedIcon from '@mui/icons-material/DriveEtaOutlined';
+import personal from '../public/personal.jpg';
+import system from '../public/system.jpeg';
+import ingrown from '../public/ingrown.jpg';
+import nocover from '../public/nocover.jpg';
+import cover from '../public/cover.jpg';
+import prosthesis from '../public/prosthesis.jpg';
 
 export const serviceItem = [
   {
-    icon: 'Person3OutlinedIcon',   
+    icon: 'Person3OutlinedIcon', 
+    image: personal,  
     title:
       'Консультация (очная)',
-    modal: 'personal'  
+    modal: 'personal',
+    paragraphOne: '40 минут. Включает в себя:',
+    serviceContent: [
+      'визуальный осмотр',
+      'в зависимости от выявленной проблемы использование дополнительного специализированного инструментария (листы для оттиска стопы, лампа Вуда, проба Минора и др.)',
+      'рекомендации по профилактике и решению существующих и потенциальных проблем кожи и ногтей, подбору обуви, чулочно-носочных изделий, космецевтики'
+    ]      
   },
   {
     icon: 'DriveEtaOutlinedIcon',
+    image: system, 
     title:
       'Коррекционные системы',
-    modal: 'system'  
+    modal: 'system',
+    paragraphOne: '1 час. Если процедура проводится в комплексе с подологическим педикюром, то время установки системы сокращается до 30 минут (+/-). В стоимость входит:',
+    serviceContent: [
+      'консультация по проблеме врастающего ногтя',
+      'установка одной из коррекционных систем "титановая нить" / CombiPed / 3TO /3TO на 1 палец',
+      'установка тампонады (по показаниям)'
+    ]    
   },
   {
     // icon: <DriveEtaOutlinedIcon/>,
     icon: 'DriveEtaOutlinedIcon',
+    image: ingrown, 
     title:
-      'Обработка вросшего ногтя',
-    modal: 'instrument'  
+      'Обработка вростающего ногтя',
+    modal: 'ingrown',
+    paragraphOne: '1 час. Степень вростания определяется на месте. В процедуру входит:',
+    serviceContent: [
+      'консультация',
+      'подологическая обработка одного ногтя, перевязка, тампонада (каполин/Ligasano/Темпофот)',
+      'разгрузка FRESCO (fleecy web, foam-o-felt) -по показаниям'
+    ]    
   },
   {
     icon: 'Без покрытия',
+    image: nocover, 
     title:
       'Педикюр без покрытия',
-    modal: 'noCover'  
+    modal: 'noCover',
+    paragraphOne: '2 часа. Стоимость зависит от степени сложности. В процедуру входит:',
+    serviceContent: [
+      'консультация',
+      'аппаратная обработка кожи стопы и ногтевых пластин',
+      'нанесение уходовых средств по типу кожи, нанесение на ногти бесцветного лака-укрепителя по желанию клиента',
+      'массаж по завершении процедуры (10 мин)'
+    ]    
   },
   {
     icon: 'Покрытие',
+    image: cover, 
     title:
       'Педикюр с покрытием',
-    modal: 'cover'  
+    modal: 'cover',
+    paragraphOne: '2 часа 30 минут. Услуга включает в себя:',
+    serviceContent: [
+      'подологический педикюр комплексный 1 категории сложности',
+      'покрытие лак / гель-лак'      
+    ]    
   },
   {
     icon: 'Протез',
+    image: prosthesis, 
     title:
       'Протезирование',
-    modal: 'prosthesis'  
+    modal: 'prosthesis',
+    paragraphOne: '40 минут. Протезирование восстанавливает эстетичный вид ногтевой пластины при ее повреждении или частичной утрате. Осуществляется по предварительному согласованию, так как есть противопоказания к процедуре. В услугу входит:',
+    serviceContent: [
+      'протезирование ногтевой пластины'      
+    ]
   }
 ];
 

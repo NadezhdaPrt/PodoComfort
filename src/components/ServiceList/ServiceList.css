@@ -1,3 +1,46 @@
 .service-list-item {
-    width:30%;      
+    width:30%; 
+    flex-basis: auto;  
+    padding: 30px;
+    display: flex; 
+    flex-direction: column;
+    align-content: space-between;    
   }
+
+.modalServiceBlock {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1rem;
+  z-index: 100;
+  position: relative;   
+}
+.modalServiceBlock img {
+ width: 50%;
+ height: 100%; 
+ padding: 1rem;
+ align-self: center;
+}  
+.modalServiceBlockInfo {
+  width: 50%;
+  padding: 1rem;
+}
+.closeButton {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #75a7c0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.closeButton:hover {
+  background-color: #9fd9dd;
+}
+
+li::marker {
+  color: #9fd9dd;
+}
+  

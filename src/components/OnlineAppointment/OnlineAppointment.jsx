@@ -1,4 +1,5 @@
-import Button from "../Button/Button"
+import Button from "../Button/Button";
+import './OnlineAppointment.css';
 
 export default function OnlineAppointment({makeAnAppointment}) {
     return (

@@ -1,8 +1,8 @@
-import './Button.css';
+import classes from './Button.module.css';
 
 const Button = ({children, makeAnAppointment}) => {
     return (
-        <button className="button" onClick={makeAnAppointment}>
+        <button className={classes.button} onClick={makeAnAppointment}>
             {children}
         </button>
 

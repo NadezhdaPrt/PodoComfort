@@ -1,20 +1,43 @@
-import Person3OutlinedIcon from '@mui/icons-material/Person3Outlined';
-import DriveEtaOutlinedIcon from '@mui/icons-material/DriveEtaOutlined';
+import ModalServiceItem from '../ModalServiceItem/ModalServiceItem';
+import Button from '../Button/Button';
 import { serviceItem } from '../../data';
+import { useState } from 'react';
+import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone';
 import './ServiceList.css';
 
-
-const ServiceList = ({icon, title, modal, chooseService}) => {
-    const icons = {
-        Person3OutlinedIcon,
-        DriveEtaOutlinedIcon,
+const ServiceList = ({icon, image, title, paragraphOne, serviceContent}) => {
+    const [isModalOpen, setIsModalOpen] = useState(false);   
+    function openModal() {
+        setIsModalOpen(true);
+        console.log(serviceContent);
+        console.log(typeof serviceContent);
     }
+        
     return (
-        <div className='service-list-item' onClick={chooseService}>
-            {/* <span><Person3OutlinedIcon fontSize="large" sx={{ color: '#75a7c0' }}/></span> */}
-            <span>{icon}</span>
-            <p>{title}</p>
-        </div>        
+        <>
+            <div className='service-list-item' onClick={openModal}>
+                {/* <span><Person3OutlinedIcon fontSize="large" sx={{ color: '#75a7c0' }}/></span> */}
+                <span>{icon}</span>
+                <h3>{title}</h3>                
+            </div> 
+            <ModalServiceItem open={isModalOpen}>
+                <div className='modalServiceBlock'>
+                    <img src={image} alt={'personal consulting'} height={'50px'}/>
+                    <div className='modalServiceBlockInfo'>
+                        <h2>{title}</h2>
+                        <p>{paragraphOne}</p>
+                        <ul>
+                        {serviceContent.map( (item, i) => { 
+                            return <li key={i}>{item}</li>
+                                })}                        
+                        </ul>
+                        <br/>
+                        <Button>ПОДРОБНЕЕ</Button>
+                    </div>
+                    <button className='closeButton' onClick={() => setIsModalOpen(false)}><CloseTwoToneIcon/></button>
+                </div>                
+            </ModalServiceItem>       
+        </>        
     )      
 }
 

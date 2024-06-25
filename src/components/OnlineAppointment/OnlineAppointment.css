@@ -1,0 +1,12 @@
+.service-online-appointment {
+    background-color: #75a7c0;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+.service-online-appointment p {
+    font-size: 16px;
+} 
