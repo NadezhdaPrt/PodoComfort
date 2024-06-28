@@ -1,0 +1,28 @@
+.sertificateHeading {
+    text-align: center;
+    padding: 2rem;
+}
+.sliderContainer {
+    position: relative;
+    max-width: 80%;
+    margin: auto;
+}
+.sliderImage {
+    padding: 1rem;
+}
+.buttonBack {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: rgba(49, 46, 46, 70%);    
+  }  
+.buttonNext {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    background-color: rgba(49, 46, 46, 70%);
+}

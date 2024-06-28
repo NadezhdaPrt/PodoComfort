@@ -4,14 +4,10 @@ import { serviceItem } from "./data";
 import AboutSection from "./components/AboutSection/AboutSection";
 import FrontpageBanner from "./components/FrontpageBanner/FrontpageBanner";
 import OnlineAppointment from "./components/OnlineAppointment/OnlineAppointment";
+import CertificatesSection from "./components/CertificatesSection/CertificatesSection";
 
 function App() {
-  function makeAnAppointment() {
-    console.log('click')
-  }
-  // function chooseService(modal) {
-  //   console.log(modal)
-  // }
+    
   return (
     <>
       <Header/>
@@ -26,7 +22,8 @@ function App() {
           </div>
           <OnlineAppointment/>
         </section>  
-        <AboutSection/>        
+        <AboutSection/>
+        <CertificatesSection/>        
       </main>      
     </>
   )

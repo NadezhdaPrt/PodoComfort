@@ -1,6 +1,5 @@
 import ModalServiceItem from '../ModalServiceItem/ModalServiceItem';
 import Button from '../Button/Button';
-import { serviceItem } from '../../data';
 import { useState } from 'react';
 import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone';
 import './ServiceList.css';
@@ -8,9 +7,7 @@ import './ServiceList.css';
 const ServiceList = ({icon, image, title, paragraphOne, serviceContent}) => {
     const [isModalOpen, setIsModalOpen] = useState(false);   
     function openModal() {
-        setIsModalOpen(true);
-        console.log(serviceContent);
-        console.log(typeof serviceContent);
+        setIsModalOpen(true);        
     }
         
     return (
