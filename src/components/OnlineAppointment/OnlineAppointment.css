@@ -6,7 +6,14 @@
     justify-content: center;
     text-align: center;
     width: 100%;
+    color: rgb(0, 0, 0, 80%)
   }
 .service-online-appointment p {
     font-size: 16px;
 } 
+#appointmentButton {
+    background-color: #9fd9dd;
+}
+#appointmentButton:hover {
+  background-color: #75a7c0;
+}

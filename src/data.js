@@ -1,5 +1,9 @@
-import Person3OutlinedIcon from '@mui/icons-material/Person3Outlined';
-import DriveEtaOutlinedIcon from '@mui/icons-material/DriveEtaOutlined';
+import personalIcon from '../public/personalIcon.png';
+import systemIcon from '../public/systemIcon.png';
+import noCoverIcon from '../public/noCoverIcon.png';
+import ingrownIcon from '../public/ingrownIcon.png';
+import coverIcon from '../public/coverIcon2.png';
+import prosthesisIcon from '../public/prosthesisIcon2.png';
 import personal from '../public/personal.jpg';
 import system from '../public/system.jpeg';
 import ingrown from '../public/ingrown.jpg';
@@ -9,7 +13,7 @@ import prosthesis from '../public/prosthesis.jpg';
 
 export const serviceItem = [
   {
-    icon: 'Person3OutlinedIcon', 
+    icon: personalIcon, 
     image: personal,  
     title:
       'Консультация (очная)',
@@ -22,7 +26,7 @@ export const serviceItem = [
     ]      
   },
   {
-    icon: 'DriveEtaOutlinedIcon',
+    icon: systemIcon,
     image: system, 
     title:
       'Коррекционные системы',
@@ -36,7 +40,7 @@ export const serviceItem = [
   },
   {
     // icon: <DriveEtaOutlinedIcon/>,
-    icon: 'DriveEtaOutlinedIcon',
+    icon: ingrownIcon,
     image: ingrown, 
     title:
       'Обработка вростающего ногтя',
@@ -49,7 +53,7 @@ export const serviceItem = [
     ]    
   },
   {
-    icon: 'Без покрытия',
+    icon: noCoverIcon,
     image: nocover, 
     title:
       'Педикюр без покрытия',
@@ -63,7 +67,7 @@ export const serviceItem = [
     ]    
   },
   {
-    icon: 'Покрытие',
+    icon: coverIcon,
     image: cover, 
     title:
       'Педикюр с покрытием',
@@ -75,7 +79,7 @@ export const serviceItem = [
     ]    
   },
   {
-    icon: 'Протез',
+    icon: prosthesisIcon,
     image: prosthesis, 
     title:
       'Протезирование',

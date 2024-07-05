@@ -14,15 +14,23 @@
     position: absolute;
     top: 50%;
     left: 0;
-    transform: translateY(-50%);
-    border-radius: 50%;
-    background-color: rgba(49, 46, 46, 70%);    
+    transform: translateY(-50%);    
   }  
 .buttonNext {
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translateY(-50%);
+    transform: translateY(-50%);    
+}
+.buttonBack, .buttonNext {
     border-radius: 50%;
+    border: none;
     background-color: rgba(49, 46, 46, 70%);
+    color: white; 
+    padding: 0.5rem;
+    display: flex;   
+    align-items: center;     
+}
+.buttonBack:hover, .buttonNext:hover {
+    background-color: rgba(119, 113, 113, 0.7)
 }

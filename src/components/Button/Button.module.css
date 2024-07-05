@@ -12,3 +12,9 @@
 .button:hover {
     background-color: #9fd9dd;
   }
+  #appointmentButton {
+    background-color: #9fd9dd;
+}
+#appointmentButton:hover {
+  background-color: #75a7c0;
+}

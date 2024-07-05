@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: rgb(0, 0, 0, 80%)
 }
 
 main {  
@@ -41,39 +42,19 @@ main {
 }
 .service {
   display: flex;
-  margin: 2em;
+  margin: 2rem auto 2rem auto;
+  width: 80%;  
 }
 .service-list {  
   display: flex;
   flex-wrap: wrap;
   align-content: stretch;  
 }
-
 .content,
 p {
   padding: 1rem 0;
 }
 
-.information {
-  height: 100vh;
-  display: flex;
-  padding: 50px;
-  justify-content:center;
-}
-.information-photo {
-  padding: 2rem;    
-}
 
-.information-text-about {
-  display: flex;
-  flex-direction: column;
-  padding: 2rem;
-  align-items: flex-start;
-  justify-content: center;
-  width: 50%;
-}
-.information-text-about h2 {
-  color: #75a7c0;
-}
 
 

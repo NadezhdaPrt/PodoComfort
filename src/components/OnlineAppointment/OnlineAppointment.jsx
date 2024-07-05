@@ -6,7 +6,7 @@ export default function OnlineAppointment({makeAnAppointment}) {
         <div className="service-online-appointment">
             <h2>Онлайн-запись</h2>
             <p>Выберите удобное для Вас время</p>
-            <Button makeAnAppointment={makeAnAppointment}>ЗАПИСАТЬСЯ</Button>
+            <Button id='appointmentButton' makeAnAppointment={makeAnAppointment}>ЗАПИСАТЬСЯ</Button>
           </div>
     )
 }

@@ -1,11 +1,21 @@
 .service-list-item {
-    width:30%; 
-    flex-basis: auto;  
-    padding: 30px;
-    display: flex; 
-    flex-direction: column;
-    align-content: space-between;    
+  width:30%; 
+  flex-basis: auto;  
+  padding: 30px;
+  display: flex; 
+  flex-direction: column;  
+  color: rgb(0, 0, 0, 80%);    
   }
+.service-list-item img, .service-list-item h3 {
+    margin: 0.5rem;
+}
+.service-list-item img {
+  width: 40%;  
+}  
+.service-list-item h3 {
+  width: 100%;
+}
+
 
 .modalServiceBlock {
   display: flex;

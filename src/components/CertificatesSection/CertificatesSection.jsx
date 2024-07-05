@@ -1,4 +1,5 @@
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext, Image } from 'pure-react-carousel';
+import ArrowForwardIosTwoToneIcon from '@mui/icons-material/ArrowForwardIosTwoTone';
 import ArrowBackIosTwoToneIconArrowBackIosTwoToneIcon from '@mui/icons-material/ArrowBackIosTwoTone';
 import './CertificatesSection.css';
 import 'pure-react-carousel/dist/react-carousel.es.css';
@@ -70,8 +71,8 @@ export default function CertificatesSection() {
                             </div>
                         </Slide>                                      
                     </Slider>
-                    <ButtonBack className='buttonBack'><ArrowBackIosTwoToneIconArrowBackIosTwoToneIcon/></ButtonBack>
-                    <ButtonNext className='buttonNext'></ButtonNext>
+                    <ButtonBack className='buttonBack'><ArrowBackIosTwoToneIconArrowBackIosTwoToneIcon fontSize="small"/></ButtonBack>
+                    <ButtonNext className='buttonNext'><ArrowForwardIosTwoToneIcon fontSize="small"/></ButtonNext>
                 </div>
             </CarouselProvider>
         </section>        

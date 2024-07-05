@@ -1,0 +1,22 @@
+.information {
+    height: 100vh;
+    display: flex;
+    padding: 50px;
+    justify-content:center;
+  }
+  .information-photo {
+    padding: 2rem;    
+    
+  }
+  
+  .information-text-about {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+    width: 40%;
+  }
+  .information-text-about h2 {
+    color: #75a7c0;
+  }

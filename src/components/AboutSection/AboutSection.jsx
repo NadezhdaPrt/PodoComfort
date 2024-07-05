@@ -1,5 +1,6 @@
 import infoNatalia from '/infoNatalia.jpg';
 import Button from '../Button/Button';
+import './AboutSection.css';
 
 export default function AboutSection({makeAnAppointment}) {
     
