@@ -5,6 +5,7 @@ import AboutSection from "./components/AboutSection/AboutSection";
 import FrontpageBanner from "./components/FrontpageBanner/FrontpageBanner";
 import OnlineAppointment from "./components/OnlineAppointment/OnlineAppointment";
 import CertificatesSection from "./components/CertificatesSection/CertificatesSection";
+import ProblemsSection from "./components/ProblemsSection/ProblemsSection";
 
 function App() {
     
@@ -23,7 +24,8 @@ function App() {
           <OnlineAppointment/>
         </section>  
         <AboutSection/>
-        <CertificatesSection/>        
+        <CertificatesSection/>
+        <ProblemsSection/>        
       </main>      
     </>
   )

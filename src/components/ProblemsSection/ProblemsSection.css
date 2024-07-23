@@ -1,0 +1,21 @@
+.problemsSection {
+    display: flex;
+    justify-content: space-between;
+}
+.problemsSectionInfo {
+    padding: 2rem;
+    margin-left: 6rem;
+}
+.problemsSectionInfo h2 {
+    color: #75a7c0;
+}
+.paragrath {
+    font-size: 20px;
+}
+.contacts {
+    font-size: 20px;
+    font-weight: bold;
+}
+.problemsSectionImage {
+    width: 50%;
+}

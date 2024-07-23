@@ -49,8 +49,18 @@
 .closeButton:hover {
   background-color: #9fd9dd;
 }
-
-li::marker {
+ul {
+  list-style: none;
+}
+li {
+  padding-left: 20px;
+  position: relative;
+  margin-bottom: 10px;
+} 
+li:before{
+  content: '✔';
+  position: absolute; 
+  top: 0; 
+  left: 0;
   color: #9fd9dd;
 }
-  
