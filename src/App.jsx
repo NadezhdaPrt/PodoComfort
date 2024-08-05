@@ -6,6 +6,8 @@ import FrontpageBanner from "./components/FrontpageBanner/FrontpageBanner";
 import OnlineAppointment from "./components/OnlineAppointment/OnlineAppointment";
 import CertificatesSection from "./components/CertificatesSection/CertificatesSection";
 import ProblemsSection from "./components/ProblemsSection/ProblemsSection";
+import FeedbackSection from "./components/FeedbackSection/FeedbackSection";
+import Footer from "./components/Footer/Footer";
 
 function App() {
     
@@ -25,8 +27,10 @@ function App() {
         </section>  
         <AboutSection/>
         <CertificatesSection/>
-        <ProblemsSection/>        
-      </main>      
+        <ProblemsSection/> 
+        <FeedbackSection/>       
+      </main>
+      <Footer/>      
     </>
   )
 }

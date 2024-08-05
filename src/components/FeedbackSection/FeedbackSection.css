@@ -1,0 +1,55 @@
+.feebbackHeading {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: #75a7c0;  
+}
+.feedbackContainer {
+    display: flex;
+    position: relative;
+    text-align: center;     
+    max-width: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+    height: 110%;
+    background-color: blue;
+}
+.feedbackSlider {
+    display: flex;
+}
+.feedbackImage {
+    max-width: 60%;    
+    color: white;     
+    margin: auto; 
+    align-self: center;
+}
+.buttonBackBig {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-120%);    
+  }  
+.buttonNextBig {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-120%);    
+}
+.buttonBackBig, .buttonNextBig {
+    border-radius: 50%;
+    border: none;    
+    color: white; 
+    background-color: rgb(117, 167, 192, 0);;
+    padding: 0.5rem;
+    display: flex;   
+    align-items: center;     
+}
+.buttonBackBig:hover, .buttonNextBig:hover {
+    color: #9fd9dd;
+}
+.dotGroup {    
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    color: white;     
+  }

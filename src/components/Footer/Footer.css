@@ -1,0 +1,41 @@
+footer {
+    background-color:#333333;
+    color: white;
+}
+.footerPhoto {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+.footerInfo {    
+    display: flex;
+    justify-content:space-between;
+}
+.footerInfoContainer {
+    display: flex;
+    align-items: center;
+}    
+.footerInfoLogo {
+    width: 100px;
+}
+.footerInfoSocial {
+
+}
+.footerInfoOfficial {
+    margin: 15px;
+}
+.footerInfpOfficialItem {
+    padding: 0;
+}
+.footerCopyright {
+    text-align: center;  
+    padding: 15px;  
+}
+.footerCopyright a {
+    color: white;
+    text-decoration: none;
+}
+.footerCopyright p {
+    padding: 0;
+}
