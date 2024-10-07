@@ -6,9 +6,10 @@
     position: relative;
     max-width: 80%;
     margin: auto;
+    margin-bottom: 50px;
 }
 .sliderImage {
-    padding: 1rem;
+    padding: 20px;
 }
 .buttonBack {
     position: absolute;

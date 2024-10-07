@@ -9,10 +9,10 @@ export default function CertificatesSection() {
         <section id='certificates'>
             <h2 className='sertificateHeading'>Моя квалификация</h2>
             <CarouselProvider
-                naturalSlideWidth={10}
-                naturalSlideHeight={14}
+                naturalSlideWidth={75}
+                naturalSlideHeight={100}
                 totalSlides={11}
-                visibleSlides={4}
+                visibleSlides={3}
                 dragStep={2}
                 step={2}
                 infinite             
@@ -32,7 +32,7 @@ export default function CertificatesSection() {
                             <Image className='sliderImage' src='../../../public/0619.jpeg'/>                            
                         </Slide>                    
                         <Slide index={4}>                            
-                            <Image className='sliderImage' style={{width: 'auto'}} src='../../../public/0620.png'/>                            
+                            <Image className='sliderImage' style={{height: 'auto'}} src='../../../public/0620.png'/>                            
                         </Slide>                    
                         <Slide index={5}>                            
                             <Image className='sliderImage' src='../../../public/0622.jpeg'/>                            
