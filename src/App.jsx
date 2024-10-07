@@ -8,6 +8,8 @@ import CertificatesSection from "./components/CertificatesSection/CertificatesSe
 import ProblemsSection from "./components/ProblemsSection/ProblemsSection";
 import FeedbackSection from "./components/FeedbackSection/FeedbackSection";
 import Footer from "./components/Footer/Footer";
+import { ScrollTop } from 'primereact/scrolltop';
+import KeyboardArrowUpIcon from '@mui/icons-material/KeyboardArrowUp';
 
 function App() {
     
@@ -30,7 +32,8 @@ function App() {
         <ProblemsSection/> 
         <FeedbackSection/>       
       </main>
-      <Footer/>      
+      <Footer/>
+      <ScrollTop threshold={100} className="w-5rem h-5rem border-round"><KeyboardArrowUpIcon sx={{ fontSize: 100 }}/></ScrollTop>     
     </>
   )
 }

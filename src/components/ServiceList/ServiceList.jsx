@@ -12,7 +12,7 @@ const ServiceList = ({icon, image, title, paragraphOne, serviceContent}) => {
         
     return (
         <>
-            <div className='service-list-item' onClick={openModal}>
+            <div id='seviceList' className='service-list-item' onClick={openModal}>
                 {/* <span><Person3OutlinedIcon fontSize="large" sx={{ color: '#75a7c0' }}/></span> */}
                 <img src={icon} alt="serviceIcon" />
                 {/* <Icon>{icon}</Icon> */}

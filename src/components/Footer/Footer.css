@@ -19,8 +19,12 @@ footer {
 .footerInfoLogo {
     width: 100px;
 }
-.footerInfoSocial {
-
+.socialIcon{
+    padding: 5px 5px 5px 0; 
+    transition: all 0.2s;   
+}
+.socialIcon:hover {
+    transform: scale(1.1);
 }
 .footerInfoOfficial {
     margin: 15px;

@@ -5,15 +5,16 @@
     background-color: #75a7c0;
     color: white;   
     letter-spacing: 0.8px;
-    font-size: 14px;
+    font-size: 20px;
     flex: none;
     margin: 5px;
+    font-family: 'Roboto', sans-serif;
   }
 .button:hover {
     background-color: #9fd9dd;
   }
-  #appointmentButton {
-    background-color: #9fd9dd;
+#appointmentButton {
+    background-color: white;
 }
 #appointmentButton:hover {
   background-color: #75a7c0;

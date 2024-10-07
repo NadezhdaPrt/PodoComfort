@@ -9,6 +9,9 @@
 .problemsSectionInfo h2 {
     color: #75a7c0;
 }
+.problemsSectionInfo li {
+    font-size: 20px;
+}
 .paragrath {
     font-size: 20px;
 }

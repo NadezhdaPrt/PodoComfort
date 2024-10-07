@@ -7,8 +7,10 @@
   .information-photo {
     padding: 2rem;    
     
+  } 
+  .information p, h4 {
+    font-size: 20px;
   }
-  
   .information-text-about {
     display: flex;
     flex-direction: column;

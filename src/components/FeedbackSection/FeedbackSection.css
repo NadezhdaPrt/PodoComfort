@@ -1,39 +1,58 @@
+.feedbackSection {
+    min-height: 100vh;
+    background-color: #75a7c0;  
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
 .feebbackHeading {
     text-align: center;
-    padding: 20px;
-    color: white;
-    background-color: #75a7c0;  
+    justify-self: flex-start;    
+    padding: 30px;
+    margin-bottom: 80px;
+    color: white;     
 }
 .feedbackContainer {
     display: flex;
     position: relative;
     text-align: center;     
-    max-width: 100%;
-    margin: auto;
-    padding-bottom: 40px;
-    height: 110%;
-    background-color: blue;
+    max-width: 100%;    
+    margin: auto;   
+    height: 110%;    
 }
 .feedbackSlider {
     display: flex;
+    height: 100%;
+    align-self: center;
+    font-size: 20px;
+}
+.carousel__slide--visible {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carousel__inner-slide {
+    position: absolute;  
+    display: flex;
+    align-items: center;
+    justify-content: center;                   
 }
 .feedbackImage {
-    max-width: 60%;    
+    max-width: 60%;     
     color: white;     
-    margin: auto; 
-    align-self: center;
+    margin: 0;     
 }
 .buttonBackBig {
     position: absolute;
     top: 50%;
     left: 10%;
-    transform: translateY(-120%);    
+    transform: translateY(-50%);    
   }  
 .buttonNextBig {
     position: absolute;
     top: 50%;
     right: 10%;
-    transform: translateY(-120%);    
+    transform: translateY(-50%);    
 }
 .buttonBackBig, .buttonNextBig {
     border-radius: 50%;
@@ -44,12 +63,19 @@
     display: flex;   
     align-items: center;     
 }
-.buttonBackBig:hover, .buttonNextBig:hover {
+.buttonBackBig:hover, .buttonNextBig:hover, .dotGroup button:hover {
     color: #9fd9dd;
 }
-.dotGroup {    
-    position: absolute;
-    bottom: 5%;
-    left: 50%;
-    color: white;     
-  }
+.dotGroup {  
+    position: relative; 
+    display: flex;  
+    justify-content: center; 
+    align-items: center;  
+    color: white;      
+    height: 100px;     
+}
+.dotGroup button {
+    width: 40px;
+    height: 4px;
+    margin: 3px; 
+} 

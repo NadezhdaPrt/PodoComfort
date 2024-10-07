@@ -6,3 +6,44 @@ header {
     align-items: center;  
     background: #ffffff;
   }
+header h1 {
+  font-size: 48px;
+}  
+header h4 {
+  font-size: 30px;
+} 
+.menuIconContainer {
+  cursor: pointer;  
+}
+.p-sidebar-left .p-sidebar {
+  width: 25%;
+}
+.p-sidebar-content {
+  text-align: center; 
+  font-family: 'Roboto', sans-serif;  
+}
+.p-sidebar-content a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.p-sidebar-content p:hover {
+  color: #75a7c0;
+  cursor: pointer;  
+}
+.p-sidebar-content h2 {
+  padding: 16px 0;
+  font-size:xx-large;
+}
+.p-sidebar-content p {
+    font-size: x-large;   
+  }
+.p-sidebar-close {
+  border: none;
+  color: white;  
+}
+.p-sidebar-close:hover {
+  background-color: #75a7c0;
+}
+.p-icon {
+  width: 20px;
+}

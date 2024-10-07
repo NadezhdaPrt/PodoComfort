@@ -1,19 +1,26 @@
 .service-list-item {
   width:30%; 
-  flex-basis: auto;  
+  flex-basis: auto; 
+  flex-grow: 1; 
   padding: 30px;
   display: flex; 
   flex-direction: column;  
-  color: rgb(0, 0, 0, 80%);    
+  color: rgb(0, 0, 0, 80%); 
+  cursor: pointer; 
+  transition: all 0.2s;    
+  }
+  .service-list-item:hover {
+    transform: scale(1.1);
   }
 .service-list-item img, .service-list-item h3 {
-    margin: 0.5rem;
+    margin: 8px;
 }
 .service-list-item img {
   width: 40%;  
 }  
 .service-list-item h3 {
   width: 100%;
+  font-size: 25px;
 }
 
 

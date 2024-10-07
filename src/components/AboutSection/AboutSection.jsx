@@ -5,7 +5,7 @@ import './AboutSection.css';
 export default function AboutSection({makeAnAppointment}) {
     
     return (
-        <section className="information">
+        <section id='about' className="information">
             <img src={infoNatalia} alt={'Photo of Natalia'} className="information-photo"/>
             <div className="information-text-about">
             <h4>Добрый день!</h4>

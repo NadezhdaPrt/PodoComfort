@@ -10,7 +10,9 @@ body {
   font-family: 'Roboto', sans-serif;
   color: rgb(0, 0, 0, 80%);  
 }
-
+h2 {
+  font-size: 40px;
+}
 main {  
   margin: 0 auto;    
 }
@@ -53,6 +55,15 @@ main {
 .content,
 p {
   padding: 1rem 0;
+}
+.p-scrolltop {
+  background-color: #9fd9dd;
+  width: 70px;
+  height: 70px;
+  padding: 20px;
+}
+.p-icon {
+  width: 30px;
 }
 
 

@@ -8,11 +8,15 @@
     width: 100%;
     color: rgb(0, 0, 0, 80%)
   }
+.service-online-appointment h2 {
+  font-size: 30px;
+}
 .service-online-appointment p {
-    font-size: 16px;
+    font-size: 20px;
 } 
 #appointmentButton {
-    background-color: #9fd9dd;
+    background-color:white;
+     
 }
 #appointmentButton:hover {
   background-color: #75a7c0;
