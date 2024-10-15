@@ -19,3 +19,19 @@
 #appointmentButton:hover {
   background-color: #75a7c0;
 }
+
+@media all and (max-width: 1200px) {
+  .button {
+    background-color: #9fd9dd;
+  }
+  .button:hover {
+    background-color: #75a7c0;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .button {
+    font-size: 15px;
+    padding: 8px 20px;
+  }
+}

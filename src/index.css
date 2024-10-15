@@ -16,32 +16,6 @@ h2 {
 main {  
   margin: 0 auto;    
 }
-
-.frontpage-banner {
-  background-image: url(/public/headerBG.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%; 
-  height: 110vh;   
-  display:inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  padding: 50px;
-}
-.frontpage-banner  h3, h1 {
-  font-weight: bolder;  
-  color: #75a7c0;   
-}
-.frontpage-banner  h1 {
-  font-size: 60px;
-  margin: 5px;
-}
-.frontpage-banner  h3 {
-  font-size: 30px;
-  margin: 5px;
-}
 .service {
   display: flex;
   margin: 2rem auto 2rem auto;

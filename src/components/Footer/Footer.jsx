@@ -1,9 +1,9 @@
 import { footer } from '../../data';
 import footerPhoto from '/footerPhoto.jpg';
 import logoQuattro from '/logoquattro.png';
-import whatsapp from '../../../public/icons8-whatsapp-32.png';
-import telegram from '../../../public/icons8-telegram-32.png';
-import vkontakte from '../../../public/icons8-vk-circled-32.png';
+import whatsapp from '/icons8-whatsapp-32.png';
+import telegram from '/icons8-telegram-32.png';
+import vkontakte from '/icons8-vk-circled-32.png';
 import './Footer.css';
 
 export default function Footer() {

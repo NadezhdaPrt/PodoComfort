@@ -1,0 +1,75 @@
+.frontpage-banner {
+    background-image: url(/public/headerBG.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; 
+    height: 100vh;      
+  }
+  .frontpage-banner__info {
+    font-weight: bolder;  
+    color: #75a7c0;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 50px;  
+    height: 100%; 
+  }  
+  .frontpage-banner  h1 {
+    font-size: 60px;
+    /* text-shadow: #fff 1px 0 1px;    */
+  }
+  .frontpage-banner  h3 {
+    font-size: 30px; 
+    /* text-shadow: #fff 1px 0 1px;     */
+  }
+
+  @media all and (max-width: 1200px) {
+    .frontpage-banner {
+        height: 80vh;        
+    }
+    .frontpage-banner  h1 {
+        font-size: 40px;
+        color: #9fd9dd;   
+    }
+    .frontpage-banner  h3 {
+        font-size: 25px; 
+        color: #9fd9dd;   
+    }
+  }
+
+  @media all and (max-width: 1024px) {
+    .frontpage-banner {
+        height: 70vh;        
+    }
+  }
+
+  @media all and (max-width: 768px) {    
+    .frontpage-banner {
+        height: 50vh;
+    }
+    .frontpage-banner  h1 {
+        font-size: 35px;   
+    }
+    .frontpage-banner  h3 {
+        font-size: 25px;    
+    }   
+  }
+
+  @media all and (max-width: 576px) {
+    
+  }
+
+  @media all and (max-width: 320px) {
+    .frontpage-banner {
+        width: 100%;
+    }
+    .frontpage-banner  h1 {
+        font-size: 30px;   
+    }
+    .frontpage-banner  h3 {
+        font-size: 20px;    
+    }   
+  }
